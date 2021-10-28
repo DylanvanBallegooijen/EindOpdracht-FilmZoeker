@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Irish+Grover&display=swap" rel="stylesheet">
+    <title>Filmzoeker</title>
+</head>
+<body>
+    <h1>Zoek een film uit:</h1>
+
+  <nav>
+    <ul id="menu">
+        <li class="item"><input type="radio" name="filter" value="2014"><label for="2014">Laatste films, 2014 of nieuwer</label></li>
+        <li class="item"><input type="radio" name="filter" value="Avengers"><label for="Avengers">Avengers</label></li>
+        <li class="item"><input type="radio" name="filter" value="X-Men"><label for="X-Men">X-Men</label></li>
+        <li class="item"><input type="radio" name="filter" value="Princess"><label for="Princess">Princess</label></li>
+        <li class="item"><input type="radio" name="filter" value="Batman"><label for="Batman">Batman</label></li>
+        <li class="item"><input type="radio" name="filter" value="reset"><label for="reset">Alle films</label></li>
+        <li class="item"><i class="fas fa-search"></i><input type="text" name="search" value="" placeholder="Zoek op woord of jaartal"></li>
+    </ul>
+</nav>
+<main>
+  <div id="wrapper">
+      <div id="content"></div>
+  </div>
+</main>
+<footer>Copierechtuh Dylan</footer>
+</body>
+    <script defer src="database.js"></script>
+    <script defer type="text/javascript" src="script.js"></script>
+    
+</html>
